@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Task List</title>
+
+    <link rel = "stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>My Task List</h1>
+    </header>
+
+    <main>
+        <form id ="task-form">
+            <label for="taskName">Enter task:</label><br>
+            <input type="text" id="taskName" name="taskName"><br>
+
+            <input type="radio" id="lowPriority" name="Priority" value="Low">
+            <label for="lowPriority">Low</label><br>
+
+            <input type="radio" id="medPriority" name="Priority" value="Medium">
+            <label for="medPriority">Medium</label><br>
+
+            <input type="radio" id="highPriority" name="Priority" value="High">
+            <label for="highPriority">High</label><br>
+
+            <input type="submit" value="Add Task">
+        </form>
+
+        <div id = "task-list"></div>
+    </main>
+</body>
+</html>

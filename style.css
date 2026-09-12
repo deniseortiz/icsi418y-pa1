@@ -1,0 +1,102 @@
+body{
+    background-color: #F7E9E1;
+    color: #33322E;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    margin: 0;
+}
+
+h1{
+    color: #891D27;
+    text-align:center;
+    font-size:50px;
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+}
+
+#task-form{
+    background-color: #FFC49F;
+    padding: 30px;
+    border: 3px solid #33312E;
+}
+
+#taskName{
+    background-color: #F7E9E1;
+    color: #33322E; 
+    
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+
+    margin: 10px 0;
+    border: 1px solid #33322E;
+    font-size: 18px;
+
+
+}
+
+#task-list{
+    margin-top: 20px;
+}
+
+.task{
+    background-color: #F7E9E1;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    padding: 18px;
+    margin-bottom: 12px;
+    border: 1px solid #33322E;
+}
+
+.taskName{
+    flex: 1;
+}
+
+.Priority{
+    padding: 8px 14px;
+}
+
+.high{
+    background-color: #ED3C50;
+    color: #33322E;
+
+}
+.medium{ 
+    background-color: #DB8100;
+    color:#33322E ;
+}
+.low{
+    background-color: #FFC49F;
+    color:#33322E ;
+}
+
+.task button{
+    background-color: #891D27;
+    color:#33322E ;
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid #33322E;
+    
+}
+
+input[type="submit"]
+{
+    background-color: #F7E9E1;
+    color: #33322E;
+    padding: 12px 20px;
+    border: 1px solid #33322E;
+    font-size: 18px;
+    margin-top: 15px;
+    
+}
+
+.completed .taskName{
+    text-decoration: line-through;
+}
