@@ -38,7 +38,7 @@ main{
 
 }
 
-#task-list{
+#taskList{
     margin-top: 20px;
 }
 
@@ -59,7 +59,7 @@ main{
     flex: 1;
 }
 
-.Priority{
+.priority{
     padding: 8px 14px;
 }
 
